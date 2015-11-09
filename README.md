@@ -8,3 +8,4 @@ Each software principle and its relative exercise has a branch
 
 * Law of Demeter: `law-of-demeter`
 * Single Responsibility Principle: `single-responsibility-principle`
+* Open/Closed Principle: `open-closed-principle`
