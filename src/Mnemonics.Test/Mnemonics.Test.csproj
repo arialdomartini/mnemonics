@@ -46,7 +46,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="MyClassTest.cs" />
+    <Compile Include="AnalogTV\AnalogSignalReceiverTest.cs" />
+    <Compile Include="PlayingDVDs\AudioMixerTest.cs" />
+    <Compile Include="AnalogTV\TVSetTest.cs" />
+    <Compile Include="PlayingDVDs\TVSetTest.cs" />
+    <Compile Include="Playstation\Playstation4Test.cs" />
+    <Compile Include="Playstation\PlaystationDVDTest.cs" />
+    <Compile Include="Playstation\PacmanTest.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
@@ -57,5 +63,10 @@
       <Project>{78CE5EFF-F7B6-4A48-87AC-95953CC02842}</Project>
       <Name>Mnemonics</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="AnalogTV\" />
+    <Folder Include="PlayingDVDs\" />
+    <Folder Include="Playstation\" />
   </ItemGroup>
 </Project>

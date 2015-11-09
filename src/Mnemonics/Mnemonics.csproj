@@ -31,8 +31,25 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MyClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="AnalogTV\ImagesAndSound.cs" />
+    <Compile Include="AnalogTV\Air.cs" />
+    <Compile Include="AnalogTV\AnalogSignalReceiver.cs" />
+    <Compile Include="PlayingDVDs\DVD.cs" />
+    <Compile Include="PlayingDVDs\DVDPlayer.cs" />
+    <Compile Include="PlayingDVDs\DigitalStream.cs" />
+    <Compile Include="PlayingDVDs\AudioMixer.cs" />
+    <Compile Include="AnalogTV\TVSet.cs" />
+    <Compile Include="PlayingDVDs\TVSet.cs" />
+    <Compile Include="Playstation\Playstation4.cs" />
+    <Compile Include="Playstation\PlaystationDVD.cs" />
+    <Compile Include="Playstation\Pacman.cs" />
+    <Compile Include="Playstation\IGame.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="AnalogTV\" />
+    <Folder Include="PlayingDVDs\" />
+    <Folder Include="Playstation\" />
+  </ItemGroup>
 </Project>
