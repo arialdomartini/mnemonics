@@ -7,3 +7,4 @@ Exercises based on the amazing [Visualization Mnemonics for Software Principles]
 Each software principle and its relative exercise has a branch
 
 * Law of Demeter: `law-of-demeter`
+* Single Responsibility Principle: `single-responsibility-principle`
