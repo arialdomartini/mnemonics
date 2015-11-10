@@ -9,7 +9,7 @@ Ero confuso, e gli ho detto "*Calma, sto stolo cercando di pagarti: ti passerò 
 
 Il tipo ha tirato fuori una pistola da dietro il banco e mi ha risposto che, in quel negozio, la gente rispetta la Legge di Demeter.
 
-Quindi, cosa sostiene questa legge di Demeter? Beh, sostanzialmente dice "*Dai ai tuoi collaboraatori esattamente quello di cui hanno bisgno, ed evita di dar loro qualcos'altro nel quale siano costretti a frugare solo per trovare quello di cui hanno bisogno*".
+Quindi, cosa sostiene questa legge di Demeter? Beh, sostanzialmente dice "*Dai ai tuoi collaboraatori esattamente quello di cui hanno bisogno, ed evita di dar loro qualcos'altro nel quale siano costretti a frugare solo per trovare quello di cui hanno bisogno*".
 
 Ci sono dei buoni motivi per cui non diamo ai commessi i nostri pantaloni, e nemmeno i nostri portafogli, e per cui invece diamo loro direttamente i soldi: non conviene a nessuno che siano loro a dover frugare nella nostra roba per trovare i soldi. La Legge di Demeter ci incoraggia a pensare nello stesso modo anche quando disegnamo il codice. Evita di restituire un oggetto `Pants`, costringendo chi ti ha chiamato a cercare dentro `Pants.Pocket[1].Wallet.Money` solo per recuperare un'istanza di `Money`: piuttosto, restituisci direttamente `Money`. E, se sei il commesso, non accettare in ingresso `Pants` se hai bisogno di `Money`: pretendi `Money`, oppure preparati a mostrare la pistola.
 
