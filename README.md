@@ -1,6 +1,8 @@
 Liskov Substitution Principle
 ============================
 
+[Italian translation](README-italian.md)
+
 Exercise based on the amazing [Visualization Mnemonics for Software Principles](http://www.daedtech.com/visualization-mnemonics-for-software-principles) post by [Erik Dietrich](https://twitter.com/daedtech)
 
 I’m someone that usually eats a pretty unremarkable salad with dinner. You know, standard stuff: lettuce, tomatoes, crutons, scallions, carrots, and hemlock. One thing that I seem to do differently than most, however, is that I examine each individual item in the salad to see whether or not it will kill me before I put it into my mouth (a lot of other salad consumers seem to play pretty fast and loose with their lives, sheesh). I have a pretty simple algorithm for this. If the item is not hemlock, I eat it. If it is hemlock, I put it onto my plate to throw out later. I highly recommend eating your hemlock salad this way.
