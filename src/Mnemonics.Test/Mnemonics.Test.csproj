@@ -46,7 +46,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="MyClassTest.cs" />
+    <Compile Include="LiskovSostitutionPrincipleTest.cs" />
+    <Compile Include="MySelfTest.cs" />
+    <Compile Include="EdiblesTest.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
